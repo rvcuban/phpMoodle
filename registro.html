@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <section class="login-section">
+        <div class="login-card">
+            <div class="card-header">
+                <h2>Bienvenido</h3>
+                <h3>Hoja de registro</h3>
+                <p>Enter your personal data to create an account</p>
+            </div>
+            <div class="card-body">
+                <form action="registro.php" method="post">
+                    <input type="text" name="user_name" placeholder="Your Name">
+                    <input type="text" name="email" placeholder="Email">
+                    <input type="text" name="contraseña"placeholder="Password">
+                    <div class="loginButton">
+                        <input type="submit" value="enviar">
+                    </div>
+                
+                </form>
+                <button type="button" onclick="window.history.back();">Volver</button>
+
+            </div>
+            
+        </div>
+    </section>
+    
+</body>
+
+</html>
